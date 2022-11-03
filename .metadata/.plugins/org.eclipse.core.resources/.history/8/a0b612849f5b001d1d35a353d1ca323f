@@ -1,0 +1,23 @@
+package zadaca5;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Predmet predmet1 = new Predmet();
+		predmet1.imenapredmet = " Strukturirano programiranje";
+		predmet1.profesor = " Ramona Markoska ";
+		predmet1.krediti = 6;
+		predmet1.semestar = " prv ";
+		
+		System.out.println(predmet1.imenapredmet + predmet1.profesor + predmet1.krediti + predmet1.semestar);
+		
+		Predmet predmet2 = new Predmet(" Bazi na podatoci ");
+		System.out.println(predmet2.imenapredmet);
+		
+		Predmet predmet3 = new Predmet(" Veb tehnologii ", " Zoran Kotevski ", 6);
+		System.out.println(predmet3.imenapredmet + predmet3.profesor + predmet3.krediti);
+		
+
+	}
+
+}

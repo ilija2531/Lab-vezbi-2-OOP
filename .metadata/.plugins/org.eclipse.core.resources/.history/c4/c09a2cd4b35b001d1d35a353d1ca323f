@@ -1,0 +1,27 @@
+package zadaca5;
+
+public class Predmet {
+	public String imenapredmet;
+	public String profesor;
+	public int krediti;
+	public String semestar;
+	
+	public Predmet() {
+		
+	}
+	
+	public Predmet(String imenapredmet) {
+		this.imenapredmet = imenapredmet;
+		
+	}
+	
+	public Predmet(String imenapredmet, String profesor, int krediti){
+		this.imenapredmet = imenapredmet;
+		this.profesor = profesor;
+		this.krediti = krediti;
+		
+	}
+		
+	
+
+}

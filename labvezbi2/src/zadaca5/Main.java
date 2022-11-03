@@ -1,0 +1,23 @@
+package zadaca5;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Predmet predmet1 = new Predmet(); // kreiranje na objekt so default konstruktor
+		predmet1.imenapredmet = " Strukturirano programiranje";
+		predmet1.profesor = " Ramona Markoska "; //dodeluvanje na vrednosti
+		predmet1.krediti = 6; 
+		predmet1.semestar = " prv ";
+		
+		System.out.println("Predmet: " + predmet1.imenapredmet + " Profesor: " + predmet1.profesor + " Krediti: " +predmet1.krediti + " Semestar: " +predmet1.semestar + " semestar ");	
+		
+		Predmet predmet2 = new Predmet(" Bazi na podatoci ");// kreiranje na objekt so dinamicki konstruktor
+		System.out.println(" Predmet: " +predmet2.imenapredmet);
+		
+		Predmet predmet3 = new Predmet(" Veb tehnologii ", " Zoran Kotevski ", 6);// kreiranje objekt so dinamcki konstruktor
+		System.out.println(" Predmet: " +predmet3.imenapredmet + " Profesor: " +predmet3.profesor + " Krediti: " +predmet3.krediti);
+		
+
+	}
+
+}
